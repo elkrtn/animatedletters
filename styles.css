@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+}
+
+.animated-text {
+  display: inline-block;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.letter {
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.letter:hover {
+  color: Red;
+  transform: scale(1.5);
+}
